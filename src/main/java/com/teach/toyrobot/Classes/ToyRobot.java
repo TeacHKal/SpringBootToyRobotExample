@@ -83,6 +83,7 @@ public class ToyRobot extends ObjectItem implements IMove {
             sb.append(toCSVFormat(toyRobot));
             sb.append(System.getProperty("line.separator"));
         }
+        sb.setLength(sb.length() - 2);
         return sb.toString();
     }
 
